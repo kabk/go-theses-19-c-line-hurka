@@ -1,0 +1,153 @@
+  p{
+
+color: blue;
+position: fixed;
+z-index: 10000000;
+font-family: alfarn, sans-serif;
+font-size: 5vh;
+font-weight: 200;
+font-style: normal;
+line-height: 1;
+cursor: crosshair;
+  }
+
+
+
+
+.information{
+color: blue;
+position: fixed;
+z-index: 10000000;
+font-family: alfarn, sans-serif;
+font-size: 5vh;
+font-weight: 200;
+font-style: normal;
+line-height: 1;
+margin-left: 2.5em;
+
+  	
+  }
+
+
+#boxcontainer{
+    position: relative;
+    z-index: 10;
+    float:left;   
+    margin-left: 100px;
+
+}
+
+.thumbnail {
+  position: relative;
+  float:left;    
+  margin-left: 100px;
+width:100%;
+
+
+    -webkit-transform: translate(-50%,-50%); /* Safari and Chrome */
+    -moz-transform: translate(-50%,-50%); /* Firefox */
+    -ms-transform: translate(-50%,-50%); /* IE 9 */
+    -o-transform: translate(-50%,-50%); /* Opera */
+    transform: translate(-50%,-50%);
+
+}
+
+.image {
+
+margin-left: 100%;
+margin-top: 10%;
+position:absolute;
+float: left;
+padding: 25%;
+
+
+}
+
+
+.image img {
+    height:35vh;
+    position:relative;
+    float:left;    
+    margin-top: 10%
+    margin-left: 10vh;
+    padding: 5px;
+    padding: 5%;
+
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -o-transition: all 1s ease; /* IE 9 */
+    -ms-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+
+}
+
+
+
+.image:hover img {
+    -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);
+
+}
+
+
+  #a:hover {z-index:555555 !important;}
+  #b:hover {z-index:555555 !important;}
+  #c:hover {z-index:555555 !important;}
+  #d:hover {z-index:555555 !important;}
+  #e:hover {z-index:555555 !important;}
+  #f:hover {z-index:555555 !important;}
+  #g:hover {z-index:555555 !important;}
+  #h:hover {z-index:555555 !important;}
+  #i:hover {z-index:555555 !important;}
+  #j:hover {z-index:555555 !important;}
+  #k:hover {z-index:555555 !important;}
+  #l:hover {z-index:555555 !important;}
+  #m:hover {z-index:555555 !important;}
+  #n:hover {z-index:555555 !important;}
+  #o:hover {z-index:555555 !important;}
+  #p:hover {z-index:555555 !important;}
+  #q:hover {z-index:555555 !important;}
+  #r:hover {z-index:555555 !important;}
+  #s:hover {z-index:555555 !important;}
+  #t:hover {z-index:555555 !important;}
+  #u:hover {z-index:555555 !important;}
+  #v:hover {z-index:555555 !important;}
+  #w:hover {z-index:555555 !important;}
+  #x:hover {z-index:555555 !important;}
+
+
+
+
+
+
+
+
+#video{
+
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  z-index: -100;
+
+  }
+
+ .top-left {
+  position: relative;
+  top: 100px;
+  left: 100px;
+  z-index:1000000;
+  font-size: 3vh;
+  font-family: alfarn, sans-serif;
+	font-weight: 200;
+	font-style: normal;
+	color: blue;
+}
+
+
+
+
