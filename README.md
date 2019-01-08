@@ -1,1 +1,1 @@
-# go-theses-19-c-line-hurka
+# go-theses-19-celine-hurka
