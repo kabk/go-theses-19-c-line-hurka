@@ -11,10 +11,74 @@ line-height: 1;
 cursor: crosshair;
   }
 
+.image {
+
+margin-left: 100%;
+margin-top: 10%;
+position:absolute;
+float: left;
+padding: 55%;
+
+
+}
+
+.test{
+  position:relative;
+  padding:25;
+
+
+}
 
 
 
-.information{
+
+ #colophon{
+  position: fixed;
+  font-size: 5vh;
+  font-weight: 200;
+  top:0;
+  left: 20px;
+  z-index: 150;
+  padding-left: 80vW;
+  text-align: right;
+}
+
+.titlepage{
+color:blue;
+position: fixed;
+font-family: alfarn, sans-serif;
+font-size: 50px;
+font-weight: 2000;
+font-style: normal;
+line-height: 1;
+z-index: 11000000;
+}
+
+#title{
+position: relative;
+font-size: 20vh;
+font-weight: 2000;
+font-style: normal;
+line-height: 0.8;
+margin-left: 0.2em;
+margin-top: 0.5em;
+z-index: 11000000;
+}
+
+#subtitle{
+position: relative;
+font-family: alfarn, sans-serif;
+font-size: 20vh;
+font-weight: 2000;
+font-style: normal;
+line-height: 1.8;
+margin-left: 0.2em;
+z-index: 11000000;
+}
+
+
+
+.informationname{
 color: blue;
 position: fixed;
 z-index: 10000000;
@@ -41,7 +105,7 @@ margin-left: 2.5em;
   position: relative;
   float:left;    
   margin-left: 100px;
-width:100%;
+  width:100%;
 
 
     -webkit-transform: translate(-50%,-50%); /* Safari and Chrome */
@@ -52,16 +116,7 @@ width:100%;
 
 }
 
-.image {
 
-margin-left: 100%;
-margin-top: 10%;
-position:absolute;
-float: left;
-padding: 25%;
-
-
-}
 
 
 .image img {
@@ -70,8 +125,7 @@ padding: 25%;
     float:left;    
     margin-top: 10%
     margin-left: 10vh;
-    padding: 5px;
-    padding: 5%;
+    padding left: 10%;
 
     -webkit-transition: all 1s ease; /* Safari and Chrome */
     -moz-transition: all 1s ease; /* Firefox */
@@ -84,43 +138,172 @@ padding: 25%;
 
 
 .image:hover img {
+    -webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+    transform:scale(1.25);
+
+}
+
+
+  #a:hover {z-index:555555 !important;
     -webkit-transform:scale(2); /* Safari and Chrome */
     -moz-transform:scale(2); /* Firefox */
     -ms-transform:scale(2); /* IE 9 */
     -o-transform:scale(2); /* Opera */
     transform:scale(2);
 
+  }
+  #b:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #c:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #d:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #e:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #f:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #g:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #h:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #i:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #j:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #k:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #l:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #m:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #n:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #o:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #p:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #q:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #r:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #s:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #t:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #u:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #v:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #w:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #x:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+
+
+
+
+.table{
+  width:90%;
+  text-align: left;
+  margin-top: 10vh;
+  margin-left: 1vh;
+
 }
-
-
-  #a:hover {z-index:555555 !important;}
-  #b:hover {z-index:555555 !important;}
-  #c:hover {z-index:555555 !important;}
-  #d:hover {z-index:555555 !important;}
-  #e:hover {z-index:555555 !important;}
-  #f:hover {z-index:555555 !important;}
-  #g:hover {z-index:555555 !important;}
-  #h:hover {z-index:555555 !important;}
-  #i:hover {z-index:555555 !important;}
-  #j:hover {z-index:555555 !important;}
-  #k:hover {z-index:555555 !important;}
-  #l:hover {z-index:555555 !important;}
-  #m:hover {z-index:555555 !important;}
-  #n:hover {z-index:555555 !important;}
-  #o:hover {z-index:555555 !important;}
-  #p:hover {z-index:555555 !important;}
-  #q:hover {z-index:555555 !important;}
-  #r:hover {z-index:555555 !important;}
-  #s:hover {z-index:555555 !important;}
-  #t:hover {z-index:555555 !important;}
-  #u:hover {z-index:555555 !important;}
-  #v:hover {z-index:555555 !important;}
-  #w:hover {z-index:555555 !important;}
-  #x:hover {z-index:555555 !important;}
-
-
-
-
 
 
 
@@ -136,16 +319,75 @@ padding: 25%;
 
   }
 
- .top-left {
-  position: relative;
-  top: 100px;
-  left: 100px;
-  z-index:1000000;
-  font-size: 3vh;
-  font-family: alfarn, sans-serif;
-	font-weight: 200;
-	font-style: normal;
-	color: blue;
+#contentcolophon {
+margin-top: 10vh;
+color: blue;
+position: fixed;
+z-index: 100;
+font-family: alfarn, sans-serif;
+font-size: 5vh;
+font-weight: 200;
+font-style: normal;
+line-height: 1;
+width: 90%;
+height: 90%;
+overflow-y: hidden;}
+}
+
+
+
+  
+
+
+#index, #title { top: 0;
+color: blue;
+position: fixed;
+z-index: 10000000;
+font-family: alfarn, sans-serif;
+font-size: 5vh;
+font-weight: 200;
+font-style: normal;
+line-height: 1;
+cursor: crosshair;
+
+
+}
+#title { 
+left: 0;}
+
+#content {
+margin-top: 10vh;
+color: blue;
+position: fixed;
+z-index: 100;
+font-family: alfarn, sans-serif;
+font-size: 5vh;
+font-weight: 200;
+font-style: normal;
+line-height: 1;
+width: 90%;
+height: 90%;
+overflow-y: scroll;}
+}
+
+#colophon, { top: 0;}
+#colophon { 
+left: 0;}
+
+
+#colophoninfo {
+margin-top: 10vh;
+color: blue;
+position: fixed;
+z-index: 100;
+font-family: alfarn, sans-serif;
+font-size: 5vh;
+font-weight: 200;
+font-style: normal;
+line-height: 1;
+width: 90%;
+height: 90%;
+overflow-y: scroll;}
 }
 
 

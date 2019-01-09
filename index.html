@@ -12,258 +12,170 @@
 	<script type="text/javascript" src="vendors/jquery.slimscroll.min.js"></script>
 	<link rel="stylesheet" href="https://use.typekit.net/bwu4qhz.css">
 	<script type="text/javascript" src="jquery.fullPage.js"></script>
-<script type="text/javascript">
-
-var timeoutID;
- 
-function setup() {
-    this.addEventListener("mousemove", resetTimer, false);
-    this.addEventListener("mousedown", resetTimer, false);
-    this.addEventListener("keypress", resetTimer, false);
-    this.addEventListener("DOMMouseScroll", resetTimer, false);
-    this.addEventListener("mousewheel", resetTimer, false);
-    this.addEventListener("touchmove", resetTimer, false);
-    this.addEventListener("MSPointerMove", resetTimer, false);
- 
-    startTimer();
-}
-setup();
- 
-function startTimer() {
-    // wait 2 seconds before calling goInactive
-    timeoutID = window.setTimeout(goInactive, 6000);
-}
- 
-function resetTimer(e) {
-    window.clearTimeout(timeoutID);
- 
-    goActive();
-}
- 
-function goInactive() {
-$( ".image" ).fadeOut( 4000, function() {
-    // Animation complete.
-  });
-
-
-}
- 
-function goActive() {
-$( ".image" ).fadeIn( 3000, function() {
-    // Animation complete.
-  });
-         
-    startTimer();
-}
-
-</script>
-
-
-<script type="text/javascript">
-    function startDrag(e) {
-            // determine event object
-            if (!e) {
-                var e = window.event;
-            }
-            if(e.preventDefault) e.preventDefault();
-
-            // IE uses srcElement, others use target
-            targ = e.target ? e.target : e.srcElement;
-
-            if (targ.className != 'dragme') {return};
-            // calculate event X, Y coordinates
-                offsetX = e.clientX;
-                offsetY = e.clientY;
-
-            // assign default values for top and left properties
-            if(!targ.style.left) { targ.style.left='0px'};
-            if (!targ.style.top) { targ.style.top='0px'};
-
-            // calculate integer values for top and left 
-            // properties
-            coordX = parseInt(targ.style.left);
-            coordY = parseInt(targ.style.top);
-            drag = true;
-
-            // move div element
-                document.onmousemove=dragDiv;
-            return false;
-
-        }
-        function dragDiv(e) {
-            if (!drag) {return};
-            if (!e) { var e= window.event};
-            // var targ=e.target?e.target:e.srcElement;
-            // move div element
-            targ.style.left=coordX+e.clientX-offsetX+'px';
-            targ.style.top=coordY+e.clientY-offsetY+'px';
-            return false;
-        }
-        function stopDrag() {
-            drag=false;
-        }
-        window.onload = function() {
-            document.onmousedown = startDrag;
-            document.onmouseup = stopDrag;
-        }
-</script>
-
-<script type="text/javascript">
-
-	$( document ).ready( function( ) {
-
-			content.style.display = 'none';
-
-			function toggleContent( ) {
-			$( '#content' ).slideToggle( );
-			}
-			$( '#index' ).click( toggleContent );
-			} );
-		
-	</script>
-
-	<style>
-	#content {
-	position: fixed;
-	right: 0; 	
-	top: 0%;
-	width: 100%;
-	height: 100%;
-	z-index: 8500;}
-
-#index, #title { top: 0;}
-#title { left: 0;}
-#content {
-margin-top: 10vh;
-color: blue;
-position: fixed;
-z-index: 100;
-font-family: alfarn, sans-serif;
-font-size: 5vh;
-font-weight: 200;
-font-style: normal;
-line-height: 1;
-}
-
-}
-
-	</style>
-	
-		
-
-
-
 </header>
+
+
+
 <body>
-<div id="boxcontainer">
-			<div class="thumbnail">
-        <div class="image">
-		<img class="over" id="a"  src="images/1.png"> 
-		<div class="top-left"> i </div>
-		<img class="over" id="b" src="images/2.png">
-		<div class="top-left"> i </div>
-		<img class="over" id="c" src="images/3.png">
-		<div class="top-left"> ii </div>
-		<img id="d" src="images/4.png">
-		<img id="e" src="images/5.png">
-		<img id="f" src="images/6.png">
-		<img id="g" src="images/7.png">
-		<img id="h" src="images/8.png">
-		<img id="i" src="images/9.png">
-		<img id="j" src="images/10.png">
-		<img id="k" src="images/11.png">
-		<img id="l" src="images/12.png">
-		<img id="m" src="images/13.png">
-		<img id="n" src="images/14.png">
-		<img id="o" src="images/15.png">
-		<img id="p" src="images/16.png">
-		<img id="q" src="images/17.png">
-		<img id="r" src="images/18.png">
-		<img id="s" src="images/19.png">
-		<img id="t" src="images/20.png">
-		<img id="u" src="images/21.png">
-		<img id="v" src="images/22.png">
-		<img id="w" src="images/23.png">
-		<img id="x" src="images/24.png">
-		<img id="y" src="images/25.png">
- </div>
- </div>
-  </div>
 
-
-		<p id="index">INDEX</p>
-
-<div id="content"> 
-<p id="informationname">
- </p>
-<p id="information"> <br><br/>
-<p id="information">
-<p id="information">
-	<br> </br>
-	</p>
-
-<br>
-Garamond&emsp;&emsp;&emsp;&emsp;10 iii;
-<br>
-Obsolescence&emsp;	10 iii;
-<br>
-Garamond&emsp;&emsp;		10 iii;
-<br>
-Obsolescence&emsp;	10 iii;
-<br>
-Garamond&emsp;		10 iii;
-<br>
-Obsolescence&emsp;	10 iii;
-<br>
-Garamond&emsp;		10 iii;
-<br>
-Obsolescence&emsp;	10 iii;
-<br>
-Garamond	&emsp;	10 iii;
-<br>
-Obsolescence&emsp;	10 iii;
-<br>
-Garamond&emsp;		10 iii;
-<br>
-Obsolescence	10 iii;
-<br>
-Garamond		10 iii;
-<br>
-Obsolescence	10 iii;
-<br>
-Garamond		10 iii;
-<br>
-Obsolescence	10 iii;
-<br>
-Garamond		10 iii;
-<br>
-Obsolescence	10 iii;
-<br>
-Garamond		10 iii;
-<br>
-Obsolescence	10 iii;
-<br>
-
-<br>
-
-</p>
-
-
+<div class="titlepage">
+<p id="title">IT WASN'T SET IN STONE </p>
+<p id="subtitle"> CÉLINE HURKA</p>
 </div>
 
+<div id="boxcontainer">
+	<div class="thumbnail">
+        <div class="image">
 		
+		<img class="over" id="a"  src="images/1.png"> 
+		<img class="over" id="b" src="images/2.png">
+		<img class="over" id="c" src="images/3.png">
+		<img class="over" id="d" src="images/4.png">
+		<img class="over" id="e" src="images/5.png">
+		<img class="over" id="f" src="images/6.png">
+		<img class="over" id="g" src="images/7.png">
+		<img class="over" id="h" src="images/8.png">
+		<img class="over" id="i" src="images/9.png">
+		<img class="over" id="j" src="images/10.png">
+		<img class="over" id="k" src="images/11.png">
+		<img class="over" id="l" src="images/12.png">
+		<img class="over" id="m" src="images/13.png">
+		<img class="over" id="n" src="images/14.png">
+		<img class="over" id="o" src="images/15.png">
+		<img class="over" id="p" src="images/16.png">
+		<img class="over" id="q" src="images/17.png">
+		<img class="over" id="r" src="images/18.png">
+		<img class="over" id="s" src="images/19.png">
+		<img class="over" id="t" src="images/20.png">
+		<img class="over" id="u" src="images/21.png">
+		<img class="over" id="v" src="images/22.png">
+		<img class="over"  id="w" src="images/23.png">
+		<img class="over" id="x" src="images/24.png">
+		<img class="over" id="y" src="images/25.png">
+		
+		 </div>
+	 </div>
+ </div>
 
 
 
+
+
+
+
+<p id="index">INDEX</p>
+<div id="content"> 
+<table class="informationname"> </p>
+<table class="table">
+ <tr>
+    <th>Archive</th>
+    <th>12/12/2018</th>
+    <th>i</th> 
+  </tr>  <tr>
+    <th>Garamond</th>
+    <th>14/12/2018</th>
+    <th>iv</th> 
+  </tr> <tr>
+    <th>Reproduction</th>
+    <th>09/12/2018</th>
+    <th>vii</th> 
+  </tr>
+    </tr> <tr>
+    <th>Revival</th>
+    <th>01/11/2018</th>
+    <th>iv</th> 
+  </tr>
+    </tr> <tr>
+    <th>UFO</th>
+    <th>25/12/2018</th>
+    <th>xvi</th> 
+  </tr>
+    </tr> <tr>
+    <th>Carving</th>
+    <th>15/11/2018</th>
+    <th>xx</th> 
+  </tr>
+    </tr> <tr>
+    <th>Granjon</th>
+    <th>09/09/2018</th>
+    <th>xv</th> 
+  </tr>
+    </tr> <tr>
+    <th>Yves Klein</th>
+    <th>03/01/2019</th>
+    <th>ivi</th> 
+  </tr>
+    </tr> <tr>
+    <th>U-Chronic Time</th>
+    <th>15/12/2018</th>
+    <th>viii</th> 
+  </tr>
+    </tr> <tr>
+    <th>Obsolescence</th>
+    <th>31/12/2018</th>
+    <th>xvi</th> 
+  </tr>
+    </tr> <tr>
+    <th>Beowolf</th>
+    <th>12/12/2018</th>
+    <th>iii</th> 
+  </tr>
+    </tr> <tr>
+    <th>Matthew Carter</th>
+    <th>19/12/2018</th>
+    <th>ii</th> 
+  </tr>
+    </tr> <tr>
+    <th>Genath</th>
+    <th>21/12/2018</th>
+    <th>vii</th> 
+  </tr>
+    </tr> <tr>
+    <th>Rosetta Stone</th>
+    <th>26/12/2018</th>
+    <th>xxiii</th> 
+  </tr>
+    </tr> <tr>
+    <th>Flies</th>
+    <th>06/11/2018</th>
+    <th>xxx</th> 
+  </tr>
+    </tr> <tr>
+    <th>Romulus</th>
+    <th>12/10/2018</th>
+    <th>xxxiii</th> 
+  </tr>
+    </tr> <tr>
+    <th>Lyon</th>
+    <th>14/12/2018</th>
+    <th>xxxi</th> 
+  </tr>
+    </tr> <tr>
+    <th>Online Catalogue</th>
+    <th>09/12/2018</th>
+    <th>iv</th> 
+  </tr>
+    </tr> <tr>
+    <th>Alfarn</th>
+    <th>06/06/2018</th>
+    <th>vii</th> 
+  </tr>
+
+	</table>
+</div>
+
+
+<p id="colophon">COLOPHON</p>
+
+<div id="colophoninfo"> 
+<p id="text"> 
+ CÉLINE HURKA, THESIS KABK GRAPHIC DESIGN, 2018 
+
+</p>
+</div>
 
 <video id="video" autoplay muted loop>
   <source src="images/movie.mp4" type="video/mp4">
 </video>
-
-
-
-
-
-
 
 </body>
