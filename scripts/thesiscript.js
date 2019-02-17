@@ -82,6 +82,7 @@ $( ".image" ).fadeIn( 3000, function() {
         }
         function stopDrag() {
             drag=false;
+            
         }
         window.onload = function() {
             document.onmousedown = startDrag;
@@ -103,17 +104,17 @@ $(window).bind('scroll', function() {
 
 
 
+    $( document ).ready( function( ) {
 
-	$( document ).ready( function( ) {
+            methodologyinfo.style.display = 'none';
 
-			content.style.display = 'none';
+            function toggleContent( ) {
+            $( '#methodologyinfo' ).slideToggle( );
+            }
+            $( '#methodology' ).click( toggleContent );
+            } );
+        
 
-			function toggleContent( ) {
-			$( '#content' ).slideToggle( );
-			}
-			$( '#index' ).click( toggleContent );
-			} );
-		
 
 
     $( document ).ready( function( ) {

@@ -1,47 +1,13 @@
-  p{
 
+
+ 
+  p{
 color: blue;
-position: fixed;
 z-index: 10000000;
 font-family: alfarn, sans-serif;
-font-size: 5vh;
-font-weight: 200;
-font-style: normal;
-line-height: 1;
 cursor: crosshair;
-  }
-
-.image {
-
-margin-left: 100%;
-margin-top: 10%;
-position:absolute;
-float: left;
-padding: 55%;
-
-
 }
 
-.test{
-  position:relative;
-  padding:25;
-
-
-}
-
-
-
-
- #colophon{
-  position: fixed;
-  font-size: 5vh;
-  font-weight: 200;
-  top:0;
-  left: 20px;
-  z-index: 150;
-  padding-left: 80vW;
-  text-align: right;
-}
 
 .titlepage{
 color:blue;
@@ -78,42 +44,61 @@ z-index: 11000000;
 
 
 
-.informationname{
-color: blue;
-position: fixed;
-z-index: 10000000;
-font-family: alfarn, sans-serif;
-font-size: 5vh;
-font-weight: 200;
-font-style: normal;
-line-height: 1;
-margin-left: 2.5em;
 
-  	
-  }
+
+
+
+#colophon{
+ position: fixed;
+ z-index: 12000001;
+ margin-left: 92%;
+  
+}
+
+#methodology{
+position: fixed;
+z-index: 12000001;
+margin-left: 3%;
+
+}
+
+
+
+#colophoninfo {
+position: absolute;
+z-index: 11000000;
+margin-left: 3%;
+white-space: pre;
+font-size: 2vw;
+overflow-y: scroll;
+}
+
+#methodologyinfo {
+position: absolute;
+z-index: 11000000;
+margin-left: 3%;
+white-space: pre;
+font-size: 2vw;
+overflow-y: scroll;
+}
+
 
 
 #boxcontainer{
-    position: relative;
-    z-index: 10;
-    float:left;   
-    margin-left: 100px;
-
+    margin-left: 50%;
+    width:80%;
+    margin-top:20;
 }
 
 .thumbnail {
   position: relative;
-  float:left;    
-  margin-left: 100px;
   width:100%;
-
 
     -webkit-transform: translate(-50%,-50%); /* Safari and Chrome */
     -moz-transform: translate(-50%,-50%); /* Firefox */
     -ms-transform: translate(-50%,-50%); /* IE 9 */
     -o-transform: translate(-50%,-50%); /* Opera */
     transform: translate(-50%,-50%);
-
 }
 
 
@@ -123,10 +108,8 @@ margin-left: 2.5em;
     height:35vh;
     position:relative;
     float:left;    
-    margin-top: 10%
-    margin-left: 10vh;
-    padding left: 10%;
-
+    margin-top: 13%;
+    padding-left: 5%;
     -webkit-transition: all 1s ease; /* Safari and Chrome */
     -moz-transition: all 1s ease; /* Firefox */
     -o-transition: all 1s ease; /* IE 9 */
@@ -147,20 +130,19 @@ margin-left: 2.5em;
 }
 
 
-  #a:hover {z-index:555555 !important;
-    -webkit-transform:scale(2); /* Safari and Chrome */
-    -moz-transform:scale(2); /* Firefox */
-    -ms-transform:scale(2); /* IE 9 */
-    -o-transform:scale(2); /* Opera */
-    transform:scale(2);
 
-  }
+  #a:hover {z-index:555555 !important;
+    -webkit-transform:scale(2.8); /* Safari and Chrome */
+    -moz-transform:scale(2.8); /* Firefox */
+    -ms-transform:scale(2.8); /* IE 9 */
+    -o-transform:scale(2.8); /* Opera */
+    transform:scale(2.8);}
   #b:hover {z-index:555555 !important;
-      -webkit-transform:scale(2); /* Safari and Chrome */
-    -moz-transform:scale(2); /* Firefox */
-    -ms-transform:scale(2); /* IE 9 */
-    -o-transform:scale(2); /* Opera */
-    transform:scale(2);}
+      -webkit-transform:scale(4); /* Safari and Chrome */
+    -moz-transform:scale(4); /* Firefox */
+    -ms-transform:scale(4); /* IE 9 */
+    -o-transform:scale(4); /* Opera */
+    transform:scale(4);}
   #c:hover {z-index:555555 !important;
       -webkit-transform:scale(2); /* Safari and Chrome */
     -moz-transform:scale(2); /* Firefox */
@@ -246,11 +228,11 @@ margin-left: 2.5em;
     -o-transform:scale(2); /* Opera */
     transform:scale(2);}
   #q:hover {z-index:555555 !important;
-      -webkit-transform:scale(2); /* Safari and Chrome */
-    -moz-transform:scale(2); /* Firefox */
-    -ms-transform:scale(2); /* IE 9 */
-    -o-transform:scale(2); /* Opera */
-    transform:scale(2);}
+      -webkit-transform:scale(4); /* Safari and Chrome */
+    -moz-transform:scale(4); /* Firefox */
+    -ms-transform:scale(4); /* IE 9 */
+    -o-transform:scale(4); /* Opera */
+    transform:scale(4);}
   #r:hover {z-index:555555 !important;
       -webkit-transform:scale(2); /* Safari and Chrome */
     -moz-transform:scale(2); /* Firefox */
@@ -258,11 +240,11 @@ margin-left: 2.5em;
     -o-transform:scale(2); /* Opera */
     transform:scale(2);}
   #s:hover {z-index:555555 !important;
-      -webkit-transform:scale(2); /* Safari and Chrome */
-    -moz-transform:scale(2); /* Firefox */
-    -ms-transform:scale(2); /* IE 9 */
-    -o-transform:scale(2); /* Opera */
-    transform:scale(2);}
+      -webkit-transform:scale(5); /* Safari and Chrome */
+    -moz-transform:scale(5); /* Firefox */
+    -ms-transform:scale(5); /* IE 9 */
+    -o-transform:scale(5); /* Opera */
+    transform:scale(5);}
   #t:hover {z-index:555555 !important;
       -webkit-transform:scale(2); /* Safari and Chrome */
     -moz-transform:scale(2); /* Firefox */
@@ -293,19 +275,444 @@ margin-left: 2.5em;
     -ms-transform:scale(2); /* IE 9 */
     -o-transform:scale(2); /* Opera */
     transform:scale(2);}
-
-
-
-
-.table{
-  width:90%;
-  text-align: left;
-  margin-top: 10vh;
-  margin-left: 1vh;
-
-}
-
-
+   #y:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+    #z:hover {z-index:555555 !important;
+      -webkit-transform:scale(5); /* Safari and Chrome */
+    -moz-transform:scale(5); /* Firefox */
+    -ms-transform:scale(5); /* IE 9 */
+    -o-transform:scale(5); /* Opera */
+    transform:scale(5);}
+  #aa:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}    
+  #ab:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #ac:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #ad:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #ae:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #af:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #ag:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #ah:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #ai:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #aj:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #ak:hover {z-index:555555 !important;
+      -webkit-transform:scale(5); /* Safari and Chrome */
+    -moz-transform:scale(5); /* Firefox */
+    -ms-transform:scale(5); /* IE 9 */
+    -o-transform:scale(5); /* Opera */
+    transform:scale(5);}
+  #al:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #am:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #an:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #ao:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #ap:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #aq:hover {z-index:555555 !important;
+      -webkit-transform:scale(5); /* Safari and Chrome */
+    -moz-transform:scale(5); /* Firefox */
+    -ms-transform:scale(5); /* IE 9 */
+    -o-transform:scale(5); /* Opera */
+    transform:scale(5);}
+  #ar:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #as:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #at:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #au:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #av:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #aw:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #ax:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #ay:hover {z-index:555555 !important;
+      -webkit-transform:scale(3); /* Safari and Chrome */
+    -moz-transform:scale(3); /* Firefox */
+    -ms-transform:scale(3); /* IE 9 */
+    -o-transform:scale(3); /* Opera */
+    transform:scale(3);}
+  #ba:hover {z-index:555555 !important;
+    -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #bb:hover {z-index:555555 !important;
+      -webkit-transform:scale(5); /* Safari and Chrome */
+    -moz-transform:scale(5); /* Firefox */
+    -ms-transform:scale(5); /* IE 9 */
+    -o-transform:scale(5); /* Opera */
+    transform:scale(5);}
+  #bc:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #bd:hover {z-index:555555 !important;
+      -webkit-transform:scale(5); /* Safari and Chrome */
+    -moz-transform:scale(5); /* Firefox */
+    -ms-transform:scale(5); /* IE 9 */
+    -o-transform:scale(5); /* Opera */
+    transform:scale(5);}
+  #be:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #bf:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #bg:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #bh:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #bi:hover {z-index:555555 !important;
+      -webkit-transform:scale(5); /* Safari and Chrome */
+    -moz-transform:scale(5); /* Firefox */
+    -ms-transform:scale(5); /* IE 9 */
+    -o-transform:scale(5); /* Opera */
+    transform:scale(5);}
+  #bj:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #bk:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #bl:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #bm:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #bn:hover {z-index:555555 !important;
+      -webkit-transform:scale(4); /* Safari and Chrome */
+    -moz-transform:scale(4); /* Firefox */
+    -ms-transform:scale(4); /* IE 9 */
+    -o-transform:scale(4); /* Opera */
+    transform:scale(4);}
+  #bo:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #bp:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #bq:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #br:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #bs:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #bt:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #bu:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #bv:hover {z-index:555555 !important;
+      -webkit-transform:scale(5); /* Safari and Chrome */
+    -moz-transform:scale(5); /* Firefox */
+    -ms-transform:scale(5); /* IE 9 */
+    -o-transform:scale(5); /* Opera */
+    transform:scale(5);}
+  #bw:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #bx:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #by:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #ca:hover {z-index:555555 !important;
+    -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #cb:hover {z-index:555555 !important;
+      -webkit-transform:scale(4); /* Safari and Chrome */
+    -moz-transform:scale(4); /* Firefox */
+    -ms-transform:scale(4); /* IE 9 */
+    -o-transform:scale(4); /* Opera */
+    transform:scale(4);}
+  #cc:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #cd:hover {z-index:555555 !important;
+      -webkit-transform:scale(6); /* Safari and Chrome */
+    -moz-transform:scale(6); /* Firefox */
+    -ms-transform:scale(6); /* IE 9 */
+    -o-transform:scale(6); /* Opera */
+    transform:scale(6);}
+  #ce:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #cf:hover {z-index:555555 !important;
+      -webkit-transform:scale(4); /* Safari and Chrome */
+    -moz-transform:scale(4); /* Firefox */
+    -ms-transform:scale(4); /* IE 9 */
+    -o-transform:scale(4); /* Opera */
+    transform:scale(4);}
+  #cg:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #ch:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #ci:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #cj:hover {z-index:555555 !important;
+      -webkit-transform:scale(3); /* Safari and Chrome */
+    -moz-transform:scale(3); /* Firefox */
+    -ms-transform:scale(3); /* IE 9 */
+    -o-transform:scale(3); /* Opera */
+    transform:scale(3);}
+  #ck:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #cl:hover {z-index:555555 !important;
+      -webkit-transform:scale(3); /* Safari and Chrome */
+    -moz-transform:scale(3); /* Firefox */
+    -ms-transform:scale(3); /* IE 9 */
+    -o-transform:scale(3); /* Opera */
+    transform:scale(3);}
+  #cm:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #cn:hover {z-index:555555 !important;
+      -webkit-transform:scale(6); /* Safari and Chrome */
+    -moz-transform:scale(6); /* Firefox */
+    -ms-transform:scale(6); /* IE 9 */
+    -o-transform:scale(6); /* Opera */
+    transform:scale(6);}
+  #co:hover {z-index:555555 !important;
+      -webkit-transform:scale(5); /* Safari and Chrome */
+    -moz-transform:scale(5); /* Firefox */
+    -ms-transform:scale(5); /* IE 9 */
+    -o-transform:scale(5); /* Opera */
+    transform:scale(5);}
+  #cp:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #cq:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #cr:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #cs:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #ct:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
+  #cu:hover {z-index:555555 !important;
+      -webkit-transform:scale(2); /* Safari and Chrome */
+    -moz-transform:scale(2); /* Firefox */
+    -ms-transform:scale(2); /* IE 9 */
+    -o-transform:scale(2); /* Opera */
+    transform:scale(2);}
 
 
 #video{
@@ -316,80 +723,5 @@ margin-left: 2.5em;
   min-width: 100%; 
   min-height: 100%;
   z-index: -100;
-
-  }
-
-#contentcolophon {
-margin-top: 10vh;
-color: blue;
-position: fixed;
-z-index: 100;
-font-family: alfarn, sans-serif;
-font-size: 5vh;
-font-weight: 200;
-font-style: normal;
-line-height: 1;
-width: 90%;
-height: 90%;
-overflow-y: hidden;}
 }
-
-
-
-  
-
-
-#index, #title { top: 0;
-color: blue;
-position: fixed;
-z-index: 10000000;
-font-family: alfarn, sans-serif;
-font-size: 5vh;
-font-weight: 200;
-font-style: normal;
-line-height: 1;
-cursor: crosshair;
-
-
-}
-#title { 
-left: 0;}
-
-#content {
-margin-top: 10vh;
-color: blue;
-position: fixed;
-z-index: 100;
-font-family: alfarn, sans-serif;
-font-size: 5vh;
-font-weight: 200;
-font-style: normal;
-line-height: 1;
-width: 90%;
-height: 90%;
-overflow-y: scroll;}
-}
-
-#colophon, { top: 0;}
-#colophon { 
-left: 0;}
-
-
-#colophoninfo {
-margin-top: 10vh;
-color: blue;
-position: fixed;
-z-index: 100;
-font-family: alfarn, sans-serif;
-font-size: 5vh;
-font-weight: 200;
-font-style: normal;
-line-height: 1;
-width: 90%;
-height: 90%;
-overflow-y: scroll;}
-}
-
-
-
 
