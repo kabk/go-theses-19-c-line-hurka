@@ -62,6 +62,13 @@ margin-left: 3%;
 
 }
 
+#Print{
+position: fixed;
+z-index: 12000001;
+margin-left: 80%;
+
+}
+
 
 
 #colophoninfo {
